@@ -1,0 +1,143 @@
+<?php include("path.php"); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"  />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Single Post</title>
+</head>
+<body>
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+
+        <!-- Content -->
+         <div class="content clearfix">
+
+            <!-- Main Content -->
+             <div class="main-content-wrapper">
+            <div class="main-content single">
+                <h1 class="post-title">This is the title of the Post</h1>
+
+                <div class="post-content">
+                    <h3>“Wings Unfurled: My First Solo Adventure”</h3>
+
+<h4>Introduction</h4>
+<p>“The world is a book, and those who do not travel read only one page.” – Saint Augustine
+
+    As the sun peeked over the distant mountains, casting a warm glow on the dew-kissed grass, I stood at the edge of a new chapter in my life. My heart raced with anticipation, and my backpack felt heavier than ever. But there was no turning back. This was my moment—the moment I spread my wings and embarked on my first solo trip.
+    </p>
+
+<h6>Setting Sail</h6>
+<p>Day 1: A Train Whistle and an Open Map
+    The train station echoed with the rhythmic clatter of wheels against tracks. I clutched my ticket, feeling a mix of excitement and nervousness. The destination? A quaint hill station nestled amidst pine forests. The journey itself was an adventure—the clickety-clack of the train, the passing landscapes, and the strangers who became temporary companions.
+    </p>
+<p>Day 2: A Room with a View
+    Arriving at my destination, I checked into a cozy guesthouse. The room had a window overlooking the valley—a canvas of mist and rolling hills. I sat there, sipping chai, and watched the world wake up. The solitude was both liberating and intimidating.
+    </p>
+<h6>Exploring the Unknown</h6>
+<p>Day 3: Lost in the Woods
+    Armed with a map and a sense of wanderlust, I set off on a forest trail. The trees whispered secrets, and the sunlight filtered through the leaves like golden threads. I lost track of time, stumbling upon hidden waterfalls and moss-covered bridges. Fear melted into awe.
+    </p>
+    <h6>Conversations with Strangers</h6>
+<p>Day 4: 
+    Solo travel teaches you to connect. I met fellow travelers—a retired professor, a backpacker from Argentina, and a local shepherd. We swapped stories by the campfire, our laughter echoing in the wilderness. Their wisdom became my compass.
+    </p>
+<h6>Facing Fears</h6>
+<p>Day 5: The Cliff’s Edge
+    I stood at the edge of a cliff, toes curling over the abyss. Fear gnawed at me. But then I remembered: fear is just a stepping stone to courage. I spread my arms wide, closed my eyes, and let the wind carry my worries away. I soared.
+    </p>
+<h6>Lessons Learned</h6>
+<p>Day 6: Solitude and Self-Discovery
+    In solitude, I found strength. I journaled under star-studded skies, reflecting on life, dreams, and the girl I used to be. I realized that being alone doesn’t mean loneliness—it means self-awareness.
+    </p>
+    <h6>The Return Journey</h6>
+<p>Day 7: 
+    As I boarded the train back home, I carried memories like precious souvenirs. The girl who left was different from the one who returned. She had tasted freedom, danced in rainstorms, and whispered secrets to the mountains.
+                   </p> </div>
+
+                     <!-- Like/Dislike Icons -->
+        <div class="like-dislike">
+            <i class="fas fa-thumbs-up"></i> 
+            <i class="fas fa-thumbs-down"></i>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+            <h3>Leave a Comment:</h3>
+            <form action="submit_comment.php" method="post">
+                <textarea name="comment" rows="5" class="comment-input" placeholder="Write your comment here..."></textarea>
+                <button type="submit" class="btn submit-comment">Submit</button>
+            </form>
+        </div>
+
+            </div>
+        </div>
+            <!-- //Main Content -->
+            
+            <!-- Sidebar -->
+            <div class="sidebar single">
+
+                <div class="section popular">
+                    <h2 class="section-title">Popular</h2>
+
+                    <div class="post clearfix">
+                        <img src="images/gonpa.jpg" alt="">
+                        <a href="" class="title"><h4>How to overcome your fears</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="images/gonpa.jpg" alt="">
+                        <a href="" class="title"><h4>How to overcome your fears</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="/images/image1.png" alt="">
+                        <a href="" class="title"><h4>How to overcome your fears</h4></a>
+                    </div>
+
+                </div>
+
+                <div class="section topics">
+                    <h2 class="section-title">topics</h2>
+                    <ul>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Health and Fitness</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- //Slidebar -->
+
+         </div>
+         <!-- //Content -->
+
+    </div>
+    <!-- Page Wrapper end -->
+     
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Slick Carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Custom Script -->
+     <script src="assets/js/script.js"></script>
+</body>
+</html>
